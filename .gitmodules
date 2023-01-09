@@ -1,0 +1,16 @@
+[submodule "modules/framework"]
+	path = modules/framework
+	url = https://github.com/webpress-vn/framework.git
+	branch = dev/v9.0
+[submodule "modules/proxy"]
+	path = modules/proxy
+	url = https://github.com/webpress-vn/proxy.git
+	branch = dev/v9.0
+[submodule "modules/test"]
+	path = modules/test
+	url = https://github.com/webpress-vn/test.git
+	branch = dev/v9.0
+[submodule "modules/model"]
+	path = modules/model
+	url = https://github.com/webpress-vn/model.git
+	branch = master

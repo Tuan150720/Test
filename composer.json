@@ -6,11 +6,18 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
+        "doctrine/annotations": "1.13",
         "fruitcake/laravel-cors": "^2.0.5",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "league/fractal": "^0.20.1",
+        "spatie/laravel-medialibrary": "^10.7",
+        "webpress/framework": "@dev",
+        "webpress/model": "@dev",
+        "webpress/proxy": "@dev",
+        "webpress/test": "@dev"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
@@ -57,6 +64,24 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./modules/framework"
+        },
+        {
+            "type": "path",
+            "url": "./modules/proxy"
+        },
+        {
+            "type": "path",
+            "url": "./modules/model"
+        },
+        {
+            "type": "path",
+            "url": "./modules/test"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
